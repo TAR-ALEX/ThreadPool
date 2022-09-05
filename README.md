@@ -36,7 +36,6 @@ and create a vendor.txt file and add the following entries:
 ```
 git "https://github.com/TAR-ALEX/Semaphore.git" main "./include" "./vendor/include",
 git "https://github.com/TAR-ALEX/Thread-Safe-Queue.git" main "./include" "./vendor/include",
-git "https://github.com/TAR-ALEX/io_tools.git" master "./include" "./vendor/include",
 git "https://github.com/TAR-ALEX/ThreadPool.git" master "./include" "./vendor/include",
 ```
 

@@ -29,12 +29,12 @@
 // OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 #include <iostream>
-#include <ThreadPool.hpp>
+#include <estd/thread_pool.hpp>
 
 using namespace std;
 
 int main(){
-    ThreadPool tp(2);
+    estd::thread_pool tp(2);
     tp.schedule([](){
         cout << "hello\n";
         throw 1;
