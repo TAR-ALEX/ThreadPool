@@ -1,2 +1,2 @@
-git "https://github.com/TAR-ALEX/Semaphore.git" main "./include" "./vendor/include",
-git "https://github.com/TAR-ALEX/Thread-Safe-Queue.git" main "./include" "./vendor/include",
+git "https://github.com/TAR-ALEX/Semaphore.git" main "./include/" "./vendor/include/",
+git "https://github.com/TAR-ALEX/Thread-Safe-Queue.git" main "./include/" "./vendor/include/",
