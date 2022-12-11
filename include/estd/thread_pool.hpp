@@ -76,7 +76,7 @@ namespace estd {
 		}
 
 		inline void init() {
-			tasks = make_shared<thread_safe_queue<std::function<void()>>>(numThreads*2);
+			tasks = make_shared<thread_safe_queue<std::function<void()>>>(numThreads*100);
 			errors = make_shared<thread_safe_queue<std::runtime_error>>();
 		}
 
